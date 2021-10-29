@@ -1,0 +1,17 @@
+<div class="loading-wrapper">
+
+  <img class="logo" src="assets/particl-logo.svg">
+
+  <div class="loader">
+    <span>&bull;</span><span>&bull;</span><span>&bull;</span>
+  </div>
+
+  <div *ngIf="loadingMessage">
+    <span><i>{{loadingMessage}}</i></span>
+  </div>
+
+  <blockquote class="quote">
+    <p>loading...</p>
+  </blockquote>
+
+</div>

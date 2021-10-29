@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.0318mm" height="2.0318mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 203.18 203.18"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="75.05" y1="180.29" x2="199.43" y2="12.42">
+   <stop offset="0" style="stop-opacity:1; stop-color:aqua"/>
+   <stop offset="0.509804" style="stop-opacity:1; stop-color:#33FFE6"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#66FFCC"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="59.03,0 182.76,0 203.17,0 203.17,20.4 203.17,46.53 203.17,66.94 182.76,66.94 20.41,66.94 20.41,93.07 44.97,93.07 65.37,93.07 65.37,113.47 65.37,182.76 91.39,182.76 91.39,158.31 91.39,137.93 91.39,137.86 111.79,137.86 111.79,137.93 182.76,137.93 182.76,111.79 101.97,111.79 101.97,91.37 182.76,91.37 203.17,91.37 203.17,111.79 203.17,137.93 203.17,137.93 203.17,158.31 203.17,158.31 182.76,158.31 111.79,158.31 111.79,182.76 111.79,203.18 91.39,203.18 65.37,203.18 44.97,203.18 44.97,182.76 44.97,113.47 20.41,113.47 0.01,113.47 0.01,93.07 0.01,66.94 0.01,46.53 20.41,46.53 182.76,46.53 182.76,20.4 59.03,20.4 "/>
+ </g>
+</svg>
