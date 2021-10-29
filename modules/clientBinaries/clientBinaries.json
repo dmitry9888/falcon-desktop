@@ -1,6 +1,6 @@
 {
   "clients": {
-    "particld": {
+    "falcond": {
       "version": "0.0.0.1",
       "platforms": {
         "linux": {
@@ -110,7 +110,7 @@
           },
           "x64": {
             "download": {
-              "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/particl-0.0.0.1-win.zip",
+              "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-win.zip",
               "type": "zip",
               "sha256": "caac8b097924d24fee9f92a663f5c566295048d3208d2c28ab95a16c2e8cd7d5",
               "bin": "bin/falcond.exe"

@@ -6,8 +6,8 @@ export const environment = {
   releasesUrl: 'https://api.github.com/repos/dmitry9888/falcon-desktop/releases/latest',
   envName: 'prod',
   marketVersion: require('../../node_modules/particl-marketplace/package.json').version,
-  particlHost: 'localhost',
-  particlPort: 52035,
+  falconHost: 'localhost',
+  falconPort: 52035,
   marketHost: 'localhost',
   marketPort: 3000,
   isTesting: false

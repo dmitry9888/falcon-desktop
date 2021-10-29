@@ -4,14 +4,14 @@ const path = require('path');
 const log  = require('electron-log');
 
 /*
-** returns Particl config folder
+** returns falcon config folder
 */
 function findCookiePath() {
 
   var homeDir = os.homedir ? os.homedir() : process.env['HOME'];
 
   var dir,
-      appName = 'Particl';
+      appName = 'falcon';
   switch (process.platform) {
     case 'linux': {
       dir = prepareDir(homeDir, '.' + appName.toLowerCase()).result;
@@ -88,7 +88,7 @@ function mkDir(dirPath, root) {
 
 /*
 ** returns the current RPC cookie
-** RPC cookie is regenerated at every particld startup
+** RPC cookie is regenerated at every falcond startup
 */
 function getAuth(options) {
 
@@ -131,7 +131,7 @@ function clearCookieFilePath(options) {
 
 }
 
-function getParticlPath(options) {
+function getfalconPath(options) {
   return options.datadir ? options.datadir : findCookiePath();
 }
 
@@ -140,7 +140,7 @@ function getCookieName(options) {
 }
 
 function getCookiePath(options) {
-  let dataDir = getParticlPath(options);
+  let dataDir = getfalconPath(options);
   const segments = [dataDir];
   if (options.testnet) {
     segments.push('testnet');
@@ -150,6 +150,6 @@ function getCookiePath(options) {
 }
 
 exports.getAuth = getAuth;
-exports.getParticlPath = getParticlPath;
+exports.getfalconPath = getfalconPath;
 exports.getCookieName = getCookieName;
 exports.clearCookieFilePath = clearCookieFilePath;

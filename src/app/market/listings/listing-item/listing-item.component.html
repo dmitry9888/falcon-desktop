@@ -21,7 +21,7 @@
     <!-- price section with shipping and total price  -->
     <div *ngIf="listingCacheService?.selectedCountry" class="price" fxFlex>
       {{ listing?.total(listingCacheService.selectedCountry?.iso)?.getAmountAsString() }}
-      <mat-icon fontSet="partIcon" fontIcon="part-cryptocurrency-particl"></mat-icon>
+      <mat-icon fontSet="partIcon" fontIcon="part-cryptocurrency-falcon"></mat-icon>
     </div>
 
     <!-- price section without shipping and total price  -->
@@ -30,7 +30,7 @@
       <span class="number big">{{ listing?.basePrice?.getIntegerPart() }}</span>
       <span class="point big">{{ listing?.basePrice?.dot() }}</span>
       <span class="number small">{{ listing?.basePrice?.getFractionalPart() || '' }}</span>
-      <mat-icon fontSet="partIcon" fontIcon="part-cryptocurrency-particl"></mat-icon>
+      <mat-icon fontSet="partIcon" fontIcon="part-cryptocurrency-falcon"></mat-icon>
     </div>
 
 

@@ -49,7 +49,7 @@
   "productName": "Falcon Desktop Testnet",
   "build": {
     "electronVersion": "4.0.3",
-    "appId": "io.particl.desktop",
+    "appId": "io.falcon.desktop",
     "npmRebuild": true,
     "directories": {
       "buildResources": "resources",
@@ -118,7 +118,7 @@
       "runAfterFinish": true
     },
     "linux": {
-      "maintainer": "falcon contributors <hello@particl.io>",
+      "maintainer": "falcon contributors <hello@falcon.io>",
       "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
       "target": [
         {
