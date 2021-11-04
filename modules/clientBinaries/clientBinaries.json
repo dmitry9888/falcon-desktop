@@ -8,7 +8,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-linux.zip",
               "type": "zip",
-              "sha256": "7675d504cf9912cd897c19f8b446a6dae40f2491c13f5da2018a990e59c67490",
+              "sha256": "8538178fe393dec72eecd35ea16275f65ea89209ffa8be15290003358d2c0714",
               "bin": "falcon-0.0.0.1-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -28,7 +28,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-linux.zip",
               "type": "zip",
-              "sha256": "8fe7a6f56e76e21512989a6d9de66102bfc8e3c2e5baf9b2590223c7f6eea943",
+              "sha256": "8538178fe393dec72eecd35ea16275f65ea89209ffa8be15290003358d2c0714",
               "bin": "falcon-0.0.0.1-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -48,7 +48,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-linux.zip",
               "type": "zip",
-              "sha256": "b546038dc4937ff5ed6a8eafaf3f5a4dd16e8a1b0a9a9ab4d4c41cfb6cf467c5",
+              "sha256": "8538178fe393dec72eecd35ea16275f65ea89209ffa8be15290003358d2c0714",
               "bin": "falcon-0.0.0.1-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -70,7 +70,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-osx.zip",
               "type": "zip",
-              "sha256": "0a03b4f2966b0998f510d207ad0ad6ce7b5e6578c8510548c226baa5c74e559c",
+              "sha256": "9db1eb56017a8879642970b42bb623ef1c256d9a623f7b43870803fd800725a1",
               "bin": "falcon-0.0.0.1-osx/bin/falcond"
             },
             "bin": "falcond",
@@ -92,7 +92,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-win64.zip",
               "type": "zip",
-              "sha256": "b91385cabca813b6ed19adf0afab8b715cc0ddda0646d0da8308eae2126d88b6",
+              "sha256": "affab32cab0f020639c8d086f38be3aef0d587846bf0f8ba352632a39fa03af5",
               "bin": "falcon-0.0.0.1-win64/bin/falcond.exe"
             },
             "bin": "falcond.exe",
@@ -112,7 +112,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-win64.zip",
               "type": "zip",
-              "sha256": "c9f21ac6d1d3a1ab64d6502c611f36187e72a4a4bf9a6f49b0f05a4c1966a765",
+              "sha256": "affab32cab0f020639c8d086f38be3aef0d587846bf0f8ba352632a39fa03af5",
               "bin": "falcon-0.0.0.1-win64/bin/falcond.exe"
             },
             "bin": "falcond.exe",
