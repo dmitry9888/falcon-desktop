@@ -23,16 +23,16 @@ Global SCSS config file defining app-wide settings (included in every page)
 $font: 'Inter_UI', sans-serif;
 
 // main colors
-$color: #35FFE5; // primary green-ish color
-$secondary: #05DEFF; // new blue
-$tertiary: #222831; // new purple
+$color: #222831; // primary green-ish color
+$secondary: #35FFE5; // new blue
+$tertiary: #7C00E8; // new purple
 
 $color-success: #80FF65;
 $color-alert: #FF0066;
-$color-warning: #FF0066; // yellow-ish
-$color-info: #35FFE5; // blue-ish (e.g. status cold staking icon)
+$color-warning: #FFB600; // yellow-ish
+$color-info: #7C00E8; // blue-ish (e.g. status cold staking icon)
 $color-white: #F2F2F2;
-$color-ugly: #9933CC;
+$color-ugly: #C729FC;
 
 // text colors
 $text: #222831; // default text color
@@ -118,7 +118,7 @@ $break-xhd: 2200px;
   color: $color-white;
   font-weight: 600;
   line-height: 1.6;
-  background-color: $color;
+  background-color: #35FFE5;
   border-radius: 4px;
   display: inline-block;
   margin-left: 8px;

@@ -172,7 +172,7 @@
             </mat-radio-button>
           </mat-radio-group><!-- .from-balance-type -->
           <p class="widget-help">
-            Balance transfer helps you convert your PART between Public and Private balances.
+            Balance transfer helps you convert your FNC between Public and Private balances.
           </p>
         </mat-card>
 
@@ -230,23 +230,23 @@
         <mat-card class="send-amount" fxLayout="row" fxLayoutGap="15px" fxLayoutAlign="start center">
           <mat-form-field fxFlex="0 0 150px">
             <!-- Send amount -->
-            <input matInput type="text" name="sendAmount" placeholder="Amount to send" [(ngModel)]="send.amount"
+            <input matInput type="text" color="#222831" name="sendAmount" placeholder="Amount to send" [(ngModel)]="send.amount"
                   (input)="verifyAmount()"
                   [ngClass]="{'verify-sucess': checkAmount() === true, 'verify-error': checkAmount() === false }"
                   [disabled]="send.subtractFeeFromAmount">
           </mat-form-field>
           <mat-checkbox name="send_all" [(ngModel)]="send.subtractFeeFromAmount" (click)="sendAllBalance()"
-                        class="send-all" color="warn">
+                        class="send-all" color="primary">
             Send All
           </mat-checkbox>
           <!-- Choose currency -->
           <mat-select class="underlining-select" fxFlex="0 0 70px" name="currency" [(ngModel)]="send.currency"
                       placeholder="Currency">
-            <mat-option value="part">PART</mat-option>
+            <mat-option value="part">FNC</mat-option>
           </mat-select>
           <!-- Send buttons -->
           <div class="actions" fxFlex="1 1 100%">
-            <button mat-raised-button color="primary" class="validate" (click)="onSubmit()"
+            <button mat-raised-button color="#222831" class="validate" (click)="onSubmit()"
                     [disabled]="!checkAddress() || !checkAmount()">
               <mat-icon fontSet="partIcon" fontIcon="part-check"></mat-icon>
               Make payment

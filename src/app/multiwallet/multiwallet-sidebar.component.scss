@@ -24,7 +24,7 @@
       font-family: $font;
       font-weight: 700;
       &.mat-primary:not(.active) {
-        background: lighten($bg-black, 7%);
+        background: lighten($bg-black, 7%);//#35FFE5;lighten($bg-black, 7%);
         font-weight: 500;
         &:hover {
           background: lighten($bg-black, 15%);

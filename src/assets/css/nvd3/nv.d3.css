@@ -6,7 +6,7 @@
 
 .nvd3 .nv-axis path {
     fill: none;
-    stroke: #000;
+    stroke: #222831;
     stroke-opacity: .75;
     shape-rendering: crispEdges;
 }
@@ -112,9 +112,9 @@
 .nvd3.nv-bullet { font: 10px sans-serif; }
 .nvd3.nv-bullet .nv-measure { fill-opacity: .8; }
 .nvd3.nv-bullet .nv-measure:hover { fill-opacity: 1; }
-.nvd3.nv-bullet .nv-marker { stroke: #000; stroke-width: 2px; }
-.nvd3.nv-bullet .nv-markerTriangle { stroke: #000; fill: #fff; stroke-width: 1.5px; }
-.nvd3.nv-bullet .nv-markerLine { stroke: #000; stroke-width: 1.5px; }
+.nvd3.nv-bullet .nv-marker { stroke: #222831; stroke-width: 2px; }
+.nvd3.nv-bullet .nv-markerTriangle { stroke: #222831; fill: #fff; stroke-width: 1.5px; }
+.nvd3.nv-bullet .nv-markerLine { stroke: #222831; stroke-width: 1.5px; }
 .nvd3.nv-bullet .nv-tick line { stroke: #666; stroke-width: .5px; }
 .nvd3.nv-bullet .nv-range.nv-s0 { fill: #eee; }
 .nvd3.nv-bullet .nv-range.nv-s1 { fill: #ddd; }
@@ -323,7 +323,7 @@ svg.nvd3-svg {
 }
 
 .nvd3 .nv-brushBackground rect {
-    stroke: #000;
+    stroke: #222831;
     stroke-width: .4;
     fill: #fff;
     fill-opacity: .7;
@@ -401,7 +401,7 @@ svg.nvd3-svg {
 }
 
 .nvd3.nv-pie .nv-slice text {
-    stroke: #000;
+    stroke: #222831;
     stroke-width: 0;
 }
 

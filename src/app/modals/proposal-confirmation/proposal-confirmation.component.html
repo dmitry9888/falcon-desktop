@@ -24,10 +24,10 @@
 
     <p class="fee-info">
       Transaction fee:
-      <span class="amount">{{data?.proposalTransactionFee?.getAmount()}} PART</span>
+      <span class="amount">{{data?.proposalTransactionFee?.getAmount()}} FNC</span>
       <span class="fiat">&asymp; 0.05 USD</span><br>
       Total amount:
-      <span class="amount">{{data?.proposalTransactionFee?.getAmount()}} PART</span>
+      <span class="amount">{{data?.proposalTransactionFee?.getAmount()}} FNC</span>
       <span class="fiat">&asymp; 3.47 USD</span>
     </p>
 
@@ -40,7 +40,7 @@
     <mat-icon fontSet="partIcon" fontIcon="part-cross"></mat-icon>
     Cancel
   </button>
-  <button mat-raised-button color="primary" mat-dialog-close (click)="confirm()">
+  <button mat-raised-button color="#222831" mat-dialog-close (click)="confirm()">
     <mat-icon fontSet="partIcon" fontIcon="part-check"></mat-icon>
     Confirm &amp; Submit
   </button>

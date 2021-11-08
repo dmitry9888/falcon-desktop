@@ -1,4 +1,4 @@
-@import './src/assets/_config'; // import shared colors etc.
+@import '../../../assets/_config'; // import shared colors etc.
 
 /* ------------------------------- *\
     UI Elements
@@ -86,7 +86,7 @@ a.sidebar-item-link {
   outline: none;
   &.active .sidebar-item {
     .icon { // highlight active menu item
-      color: $color !important;
+      color: #35FFE5 !important;
     }
   }
 }
@@ -261,7 +261,7 @@ a.sidebar-item-link {
 
 .sync-bar {
   .mat-progress-bar-fill::after {
-    background-color: $color;
+    background-color: #222831;
   }
 }
 .sync-progress {

@@ -13,7 +13,7 @@
           <input class="hide-file" type="file"
                 accept="image/*" multiple="true" id="fileInput">
 
-          <button mat-button color="primary" (click)="uploadPicture()">
+          <button mat-button color="accent" (click)="uploadPicture()">
             Upload a photo
           </button>
           <p>or drag'n'drop it here</p>
@@ -104,7 +104,7 @@
       <mat-form-field class="full-width">
         <mat-icon matPrefix class="icon" fontSet="partIcon" fontIcon="part-cryptocurrency-falcon"></mat-icon>
         <input matInput min="0" (paste)="numericValidator($event)" (keypress)="numericValidator($event)" placeholder="Price per item *" formControlName="basePrice" type="text">
-        <span matSuffix>PART</span>
+        <span matSuffix>FNC</span>
       </mat-form-field>
 
       <div class="row" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="25px">
@@ -113,17 +113,17 @@
         </mat-form-field-->
         <mat-form-field fxFlex="50%" class="auto-width">
           <input matInput min="0" (paste)="numericValidator($event)" (keypress)="numericValidator($event)" placeholder="Domestic shipping price *" formControlName="domesticShippingPrice" type="text">
-          <span matSuffix>PART</span>
+          <span matSuffix>FNC</span>
         </mat-form-field>
         <mat-form-field fxFlex="50%" class="auto-width">
           <input matInput min="0" (paste)="numericValidator($event)" (keypress)="numericValidator($event)" placeholder="International shipping price *" formControlName="internationalShippingPrice"
                  type="text">
-          <span matSuffix>PART</span>
+          <span matSuffix>FNC</span>
         </mat-form-field>
       </div>
       <p class="widget-help">
         Don't forget to include quantity units (e.g. 1 piece, 1 pair, 1 kg or 100 ml).<br>
-        Prices are in PART.
+        Prices are in FNC.
       </p>
     </mat-card>
   </div>
@@ -146,7 +146,7 @@
       </button>
 
       <button [disabled]="!itemFormGroup?.valid"
-              mat-raised-button color="primary"
+              mat-raised-button color="#222831"
               (click)="saveAndPublish()"
               *ngIf="!['awaiting', 'published'].includes(preloadedTemplate?.status)">
         <mat-icon fontSet="partIcon" fontIcon="part-check"></mat-icon>

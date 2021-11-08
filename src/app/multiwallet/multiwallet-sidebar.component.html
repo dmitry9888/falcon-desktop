@@ -3,9 +3,9 @@
 
   <div class="multiwallet">
 
-    <button *ngFor="let wallet of list" mat-raised-button color="primary" (click)="switchToWallet(wallet)" [ngClass]="{'active': isWalletActive(wallet) }" matTooltip="{{wallet.displayname.toUpperCase()}}" matTooltipPosition="after">{{wallet.displayname.toUpperCase()[0]}}</button>
+    <button *ngFor="let wallet of list" mat-raised-button color="#222831" (click)="switchToWallet(wallet)" [ngClass]="{'active': isWalletActive(wallet) }" matTooltip="{{wallet.displayname.toUpperCase()}}" matTooltipPosition="after">{{wallet.displayname.toUpperCase()[0]}}</button>
 
-    <button mat-raised-button color="primary" routerLink="/installer/create" routerLinkActive="active" matTooltip="Add new wallet" matTooltipPosition="after">
+    <button mat-raised-button color="#222831" routerLink="/installer/create" routerLinkActive="active" matTooltip="Add new wallet" matTooltipPosition="after">
       <mat-icon class="icon" fontSet="partIcon" fontIcon="part-small-plus"></mat-icon>
     </button>
 

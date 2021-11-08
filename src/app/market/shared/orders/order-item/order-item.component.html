@@ -45,23 +45,23 @@
         </tr-->
         <tr>
           <th>Listing price</th>
-          <td>{{order?.listing?.basePrice?.getIntegerPart()}}{{order?.listing?.basePrice?.dot()}}<small>{{order?.listing?.basePrice?.getFractionalPart()}}</small> PART
+          <td>{{order?.listing?.basePrice?.getIntegerPart()}}{{order?.listing?.basePrice?.dot()}}<small>{{order?.listing?.basePrice?.getFractionalPart()}}</small> FNC
           </td>
         </tr>
         <tr>
           <th>Shipping</th>
-          <td >{{order?.listing?.shippingAmount(country).getIntegerPart()}}{{order?.listing?.shippingAmount(country).dot()}}<small>{{order?.listing?.shippingAmount(country).getFractionalPart()}}</small> PART
+          <td >{{order?.listing?.shippingAmount(country).getIntegerPart()}}{{order?.listing?.shippingAmount(country).dot()}}<small>{{order?.listing?.shippingAmount(country).getFractionalPart()}}</small> FNC
           </td>
         </tr>
         <tr>
           <th>Escrow</th>
-          <td>{{order?.listing?.escrowAmount(country).getIntegerPart()}}{{order?.listing?.escrowAmount(country).dot()}}<small>{{order?.listing?.escrowAmount(country).getFractionalPart()}}</small> PART
+          <td>{{order?.listing?.escrowAmount(country).getIntegerPart()}}{{order?.listing?.escrowAmount(country).dot()}}<small>{{order?.listing?.escrowAmount(country).getFractionalPart()}}</small> FNC
           </td>
         </tr>
         <tr>
           <th>Total price</th>
           <td>
-            {{order?.listing?.totalAmount(country).getIntegerPart()}}{{order?.listing?.totalAmount(country).dot()}}<small>{{order?.listing?.totalAmount(country).getFractionalPart()}}</small> PART
+            {{order?.listing?.totalAmount(country).getIntegerPart()}}{{order?.listing?.totalAmount(country).dot()}}<small>{{order?.listing?.totalAmount(country).getFractionalPart()}}</small> FNC
           </td>
         </tr>
       </table>
@@ -96,7 +96,7 @@
       </button-->
     </div>
     <div class="right">
-      <button mat-raised-button color="primary" matTooltip="{{ order?.messages?.tooltip }}"
+      <button mat-raised-button color="#222831" matTooltip="{{ order?.messages?.tooltip }}"
               [disabled]="order?.messages?.action_disabled"
               (click)="order_action()">
         <mat-icon fontSet="partIcon" fontIcon="{{ order?.messages?.action_icon }}"></mat-icon>

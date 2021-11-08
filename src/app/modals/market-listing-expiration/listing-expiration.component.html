@@ -23,7 +23,7 @@
       <span *ngIf="expiration && !txError">Approximate listing fee:
         <br>
       </span>
-      <span *ngIf="expiration && !txError">{{ txFee }} PART</span>
+      <span *ngIf="expiration && !txError">{{ txFee }} FNC</span>
       <span class="small" *ngIf="expiration && txError"> {{ txError }}</span>
     </div>
   </div>
@@ -38,7 +38,7 @@
     <mat-icon fontSet="partIcon" fontIcon="part-cross"></mat-icon>
     Cancel
   </button>
-  <button [disabled]="!expiration || (txError.length > 0 )" mat-raised-button color="primary" mat-dialog-close (click)="confirm()">
+  <button [disabled]="!expiration || (txError.length > 0 )" mat-raised-button color="#222831" mat-dialog-close (click)="confirm()">
     <mat-icon fontSet="partIcon" fontIcon="part-check"></mat-icon>
     Confirm &amp; Publish
   </button>

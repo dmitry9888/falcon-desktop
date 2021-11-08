@@ -119,7 +119,7 @@
       </mat-form-field>
     </div>
 
-    <button mat-raised-button color="primary" [disabled]="!selectedOption || btnValidate" class="vote-button item" (click)="vote()">
+    <button mat-raised-button color="#222831" [disabled]="!selectedOption || btnValidate" class="vote-button item" (click)="vote()">
       <mat-icon class="icon" fontSet="partIcon" fontIcon="part-check"></mat-icon>
       Vote
     </button>
@@ -132,7 +132,7 @@
       {{voteDetails?.ProposalOption?.description}}
     </div>
 
-    <button mat-raised-button color="primary" class="vote-button item" (click)="aleradyVoted = !aleradyVoted">
+    <button mat-raised-button color="#222831" class="vote-button item" (click)="aleradyVoted = !aleradyVoted">
       <mat-icon class="icon" fontSet="partIcon" fontIcon="part-refresh"></mat-icon>
       Change vote
     </button>
