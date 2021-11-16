@@ -70,7 +70,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v0.0.0.1/falcon-0.0.0.1-osx.zip",
               "type": "zip",
-              "sha256": "2cd821ac32d1daad7b0ad33482ce0d16aca20f7990199ee18fd7f050c7880bea",
+              "sha256": "738fa46079434cea78e3e215677810b573fb643830b103780c54e68412984d6e",
               "bin": "falcon-0.0.0.1-osx/bin/falcond"
             },
             "bin": "falcond",
