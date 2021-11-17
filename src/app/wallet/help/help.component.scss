@@ -36,6 +36,7 @@
       display: flex;
       align-items: stretch;
       border-top: 1px dashed mix($bg, $bg-shadow);
+      border-right: 1px dashed mix($bg, $bg-shadow);
       padding: 20px 26px 20px 6px;
       &:first-of-type {
         border: 0;
@@ -54,19 +55,20 @@
     display: flex;
     flex-wrap: wrap;
     .item {
-      flex: 1 1 calc(25% - 1px);
+      flex: 1 1 calc(20% - 1px);
       display: block;
       padding: 26px 0;
       text-align: center;
       border-right: 1px dashed mix($bg, $bg-shadow);
-      border-bottom: 1px dashed mix($bg, $bg-shadow);
-      &:nth-of-type(4n) {
+      //border-bottom: 1px dashed mix($bg, $bg-shadow);
+      &:nth-of-type(5n) {
         border-right: 0;
       }
       &:nth-last-of-type(1),
       &:nth-last-of-type(2),
       &:nth-last-of-type(3),
-      &:nth-last-of-type(4) {
+      &:nth-last-of-type(4),
+      &:nth-last-of-type(5) {
         border-bottom: 0;
       }
       .text .title {

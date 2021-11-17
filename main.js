@@ -185,58 +185,74 @@ function makeTray() {
   // The tray context menu
   const contextMenu = electron.Menu.buildFromTemplate([
     {
-      label: 'View',
+      label: "View",
       submenu: [
         {
-          label: 'Open Dev Tools',
-          click() { mainWindow.openDevTools(); }
-        }
-      ]
+          label: "Open Dev Tools",
+          click() {
+            mainWindow.openDevTools();
+          },
+        },
+      ],
     },
     {
-      role: 'window',
+      role: "window",
       submenu: [
         {
-          label: 'Close',
-          click() { app.quit() }
+          label: "Close",
+          click() {
+            app.quit();
+          },
         },
         {
-          label: 'Hide',
-          click() { mainWindow.hide(); }
+          label: "Hide",
+          click() {
+            mainWindow.hide();
+          },
         },
         {
-          label: 'Show',
-          click() { mainWindow.show(); }
+          label: "Show",
+          click() {
+            mainWindow.show();
+          },
         },
         {
-          label: 'Maximize',
-          click() { mainWindow.maximize(); }
+          label: "Maximize",
+          click() {
+            mainWindow.maximize();
+          },
         } /* TODO: stop full screen somehow,
         {
           label: 'Toggle Full Screen',
           click () {
             mainWindow.setFullScreen(!mainWindow.isFullScreen());
            }
-        }*/
-      ]
+        }*/,
+      ],
     },
     {
-      role: 'help',
+      role: "help",
       submenu: [
         {
-          label: 'About ' + app.getName(),
-          click() { electron.shell.openExternal('https://falcon.io/#about'); }
+          label: "About " + app.getName(),
+          click() {
+            electron.shell.openExternal("https://falconofficial.com/#about");
+          },
         },
         {
-          label: 'Visit falcon.io',
-          click() { electron.shell.openExternal('https://falcon.io'); }
+          label: "Visit falconofficial.com",
+          click() {
+            electron.shell.openExternal("https://falconofficial.com");
+          },
         },
         {
-          label: 'Visit Electron',
-          click() { electron.shell.openExternal('https://electron.atom.io'); }
-        }
-      ]
-    }
+          label: "Visit Electron",
+          click() {
+            electron.shell.openExternal("https://electron.atom.io");
+          },
+        },
+      ],
+    },
   ]);
 
   // Create the tray icon

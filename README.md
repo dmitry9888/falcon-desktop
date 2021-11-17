@@ -1,8 +1,8 @@
-# falcon-desktop – UI
+# Falcon-desktop – UI
 
 ![UI Preview](preview.gif)
 
-> *"falcon is an open source project that aims to restore the balance of privacy on the internet."*
+> *"Falcon is an open source project that aims to restore the balance of privacy on the internet."*
 
 We provide a decentralized privacy platform with a suite of tools to enhance your online privacy:
 
