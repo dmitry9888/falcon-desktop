@@ -19,7 +19,7 @@ export class TransactionBuilder {
   validAmount: boolean;
   isMine: boolean;
   currency: string = 'part';
-  ringsize: number = 8;
+  ringsize: number = 5;
   subtractFeeFromAmount: boolean = false;
   estimateFeeOnly: boolean = true;
 
