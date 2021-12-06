@@ -92,7 +92,8 @@ function initMainWindow() {
           { role: 'paste' },
           { role: 'pasteandmatchstyle' },
           { role: 'delete' },
-          { role: 'selectall' }
+          { role: 'selectall' },
+          { role: 'quit' }
         ]
       }
     ]));
