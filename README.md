@@ -10,17 +10,17 @@ We provide a decentralized privacy platform with a suite of tools to enhance you
 * **End-to-end encrypted messaging** – communicate in a secure and decentralized manner without revealing your IP address
 * **A private marketplace** – buy and sell goods without leaving a trace
 
-This repository is the user interface that works in combination with our [`falcon-core`](https://github.com/dmitry9888/falcon).
+This repository is the user interface that works in combination with our [`falcon-core`](https://github.com/ProjectFalcon/falcon).
 
-[![Download the packaged wallet for Mac, Windows and Linux](download-button.png)](https://github.com/dmitry9888/falcon-desktop/releases)
+[![Download the packaged wallet for Mac, Windows and Linux](download-button.png)](https://github.com/ProjectFalcon/falcon-desktop/releases)
 
 # Contribute
 
-[![Snyk](https://snyk.io/test/github/dmitry9888/falcon-desktop/badge.svg)](https://snyk.io/test/github/dmitry9888/falcon-desktop)
-[![Build Status](https://travis-ci.org/dmitry9888/falcon-desktop.svg?branch=master)](https://travis-ci.org/dmitry9888/falcon-desktop)
-[![Coverage Status](https://coveralls.io/repos/github/dmitry9888/falcon-desktop/badge.svg?branch=master)](https://coveralls.io/github/dmitry9888/falcon-desktop?branch=master)
-[![Code Climate](https://codeclimate.com/github/dmitry9888/falcon-desktop/badges/gpa.svg)](https://codeclimate.com/github/dmitry9888/falcon-desktop)
-[![Greenkeeper badge](https://badges.greenkeeper.io/dmitry9888/falcon-desktop.svg)](https://greenkeeper.io/)
+[![Snyk](https://snyk.io/test/github/ProjectFalcon/falcon-desktop/badge.svg)](https://snyk.io/test/github/ProjectFalcon/falcon-desktop)
+[![Build Status](https://travis-ci.org/ProjectFalcon/falcon-desktop.svg?branch=master)](https://travis-ci.org/ProjectFalcon/falcon-desktop)
+[![Coverage Status](https://coveralls.io/repos/github/ProjectFalcon/falcon-desktop/badge.svg?branch=master)](https://coveralls.io/github/ProjectFalcon/falcon-desktop?branch=master)
+[![Code Climate](https://codeclimate.com/github/ProjectFalcon/falcon-desktop/badges/gpa.svg)](https://codeclimate.com/github/ProjectFalcon/falcon-desktop)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ProjectFalcon/falcon-desktop.svg)](https://greenkeeper.io/)
 
 > Be sure to read our [Contributing Guidelines](CONTRIBUTING.md) first
 
@@ -32,7 +32,7 @@ This repository is the user interface that works in combination with our [`falco
 * Download + Install [git](https://git-scm.com/)
 
 ```bash
-git clone https://github.com/dmitry9888/falcon-desktop
+git clone https://github.com/ProjectFalcon/falcon-desktop
 cd falcon-desktop
 yarn install
 ```

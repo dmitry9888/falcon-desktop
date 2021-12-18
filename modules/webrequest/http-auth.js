@@ -19,6 +19,7 @@ exports.init = function () {
     loadMarketAuthentication();
     loadWalletAuthentication();
     loadGithub();
+    loadCoingecko();
 
     session.defaultSession.webRequest.onBeforeSendHeaders(filter, (details, callback) => {
         // clone it
@@ -115,6 +116,16 @@ function loadGithub() {
     let key = "api.github.com:80";
     let value = {
         name: "github update service",
+        auth: false
+    }
+
+    whitelist.set(key, value);
+}
+
+function loadCoingecko() {
+    let key = "api.coingecko.com:80";
+    let value = {
+        name: "coingecko",
         auth: false
     }
 

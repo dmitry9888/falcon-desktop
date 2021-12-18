@@ -208,7 +208,7 @@ export class SendComponent implements OnInit, OnDestroy {
     this.send.validAddress = undefined;
   }
 
-  onSubmit(): void {
+  onSubmit(encryptionStatus: string): void {
     this.modals.unlock({timeout: 30}, (status) => this.openSendConfirmationModal());
   }
 
@@ -292,6 +292,7 @@ export class SendComponent implements OnInit, OnDestroy {
       this.sendService.transferBalance(this.send);
     }
     this.setFormDefaultValue();
+    this.dialog.closeAll();
   }
   /*
     AddressLookup Modal + set details

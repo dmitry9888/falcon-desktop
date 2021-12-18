@@ -1,0 +1,10 @@
+<div class="backup section">
+<mat-card class="backup-card">
+    <button mat-raised-button color="tertiary" (click)="saveWallet()" matTooltip="Save wallet data">
+      <mat-icon fontSet="partIcon" fontIcon="part-arrow-down"></mat-icon>
+    </button>
+    <input (ngModel)="openFile" (hgModelChange)="onOpenFile($event)" type="file"/>
+    <input type="file" id="open-folder" />
+    <div class="subtitle">A backup of your wallet</div>
+  </mat-card>
+</div>

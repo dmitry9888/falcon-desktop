@@ -1,8 +1,8 @@
 var got = require("got");
 var fs = require('fs');
 
-var releasesURL = "https://api.github.com/repos/dmitry9888/falcon/releases";
-var signaturesURL = "https://api.github.com/repos/dmitry9888/gitian.sigs/contents";
+var releasesURL = "https://api.github.com/repos/ProjectFalcon/falcon-core/releases";
+var signaturesURL = "https://api.github.com/repos/ProjectFalcon/gitian.sigs/contents";
 var maintainer = "tecnovert";
 
 /*

@@ -34,7 +34,7 @@ export class SendConfirmationModalComponent implements OnInit {
 
   confirm(): void {
     this.onConfirm.emit();
-    this.dialogClose();
+    this.dialogRef.close();
   }
 
   dialogClose(): void {

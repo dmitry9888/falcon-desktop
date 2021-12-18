@@ -1,0 +1,26 @@
+.backup {
+    .backup-card {
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        padding: 10px;
+      .subtitle {
+        padding-left: 15px;
+        display: block;
+      }
+    }
+    button {
+      margin-left: 15px;
+      min-width: 0;
+      padding: 0 10px;
+      .mat-icon {
+        color: black;
+        font-size: 14px;
+        margin: 0;
+        width: 24px;
+      }
+    }
+    input[type=file]{
+      display: none;
+    }
+}
