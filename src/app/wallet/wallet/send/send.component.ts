@@ -208,7 +208,7 @@ export class SendComponent implements OnInit, OnDestroy {
     this.send.validAddress = undefined;
   }
 
-  onSubmit(encryptionStatus: string): void {
+  onSubmit(): void {
     this.modals.unlock({timeout: 30}, (status) => this.openSendConfirmationModal());
   }
 
