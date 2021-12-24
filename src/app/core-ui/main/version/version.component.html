@@ -1,9 +1,15 @@
 <mat-content class="client-version">
   <div class="client item">
+    Last block
+    <span class="version" matTooltip="This is the last block" matTooltipPosition="right">
+      <span class="selectable">{{ getBlockCount() }}</span>
+    </span>
+  </div>
+  <div class="client item">
     Client
     <span class="version" [ngClass]="isUpdateProcessing ? 'unknown' : (isClientLatest ? 'current' : 'outdated')" [matTooltip]=" clientUpdateText " matTooltipPosition="right">
       <span class="dot"></span>
-      <span class="selectable">{{ clientVersion }}</span>
+      <span class="selectable">{{ "1.0.0" }}</span>
     </span>
   </div>
   <div class="client item" *ngIf="isMarketWallet">
@@ -15,7 +21,7 @@
   <div class="daemon item">
     Core
     <span class="version">
-      {{ daemonVersion }}
+      {{ "1.0" }}
     </span>
   </div>
 </mat-content>

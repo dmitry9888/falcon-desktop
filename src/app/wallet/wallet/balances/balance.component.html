@@ -1,13 +1,13 @@
 <!-- Balance on Overview page -->
 
 <div class="balance" *ngIf="!inSidebar">
-  <span class="number big">{{ balance.getIntegerPart() }}</span><!--
+  <span class="number big">{{ balance.getIntegerPart() }}</span><!--   
 --><span class="point big">{{ balance.dot() }}</span><!--
 --><span class="number small">{{ balance.getFractionalPart() || '' }}</span>
 
   <p class="description">{{ getTypeOfBalance() }}</p>
-  <p class="number small">usd: {{ (coinPrices.usd * balanceNumber).toFixed(2) }}</p>
-  <p class="number small">eur: {{ (coinPrices.eur * balanceNumber).toFixed(2) }}</p>
+  <p class="number small">USD: {{ (coinPrices.usd * balanceNumber).toFixed(2) }}</p>
+  <p class="number small">EUR: {{ (coinPrices.eur * balanceNumber).toFixed(2) }}</p>
 </div>
 
 

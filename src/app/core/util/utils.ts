@@ -11,7 +11,7 @@ export class Amount {
   }
 
   public getAmountAsString() {
-    const amount = this.amount.toFixed(this.maxRoundingDigits).replace(/0+$/, '');
+    const amount = this.amount.toFixed(2).replace(/0+$/, '');
     return amount[amount.length - 1] === '.' ? amount.replace('.', '') : amount;
   }
 

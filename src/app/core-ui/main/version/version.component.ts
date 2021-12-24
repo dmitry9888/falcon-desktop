@@ -10,6 +10,7 @@ import { RpcService } from 'app/core/rpc/rpc.service';
 
 import * as marketConfig from '../../../../../modules/market/config.js';
 
+
 enum VersionText {
   latest = 'This is the latest client version',
   outdated = 'Newer version available, please update!',
@@ -28,6 +29,7 @@ export class VersionComponent implements OnInit, OnDestroy {
   @Input() daemonVersion: string = '';
   public clientVersion: string = environment.version;
   public marketVersion: string = environment.marketVersion;
+  public blocksCount: string  = '33333333';
   public isClientLatest: boolean = true;
   public isUpdateProcessing: boolean = false;
   public clientUpdateText: string = '';
@@ -41,12 +43,14 @@ export class VersionComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
+
     this.isMarketWallet = (marketConfig.allowedWallets || []).includes(this._rpc.wallet);
     // Initially need to call to verify the client version
     this.getCurrentClientVersion()
     // check new update in every 30 minute
     const versionInterval = interval(1800000);
     versionInterval.pipe(takeWhile(() => !this.destroyed)).subscribe(val => this.getCurrentClientVersion());
+    this.numblocks();
   }
 
   // no need to destroy.
@@ -99,5 +103,30 @@ export class VersionComponent implements OnInit, OnDestroy {
       }
     }
     return isBNewer;
+  }
+
+  // delay(ms: number) {
+  //   return new Promise( resolve => setTimeout(resolve, ms) );
+  // }
+
+  public getBlockCount() {
+    return this.blocksCount;
+  }
+
+
+  public numblocks () {
+    // this.delay(30000);
+
+
+    this._rpc.call('getblockcount').subscribe(
+      (response: any) => {
+        this.log.i("numblocks " + response);
+        this.blocksCount = response
+        return response;
+      },
+      (err) => {
+        return -1;
+      }
+    );
   }
 }
