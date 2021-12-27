@@ -1,7 +1,6 @@
 @import './src/assets/_config'; // import shared colors etc.
 
 // ------ UI ------ //
-
 .subtitle { // section titles
   @extend %subtitle;
   .tag {
@@ -18,6 +17,13 @@
 .card {
   padding: 0;
   margin-bottom: 16px;
+}
+
+
+.superkek {
+  &:hover {
+    filter: brightness(0);
+  }
 }
 
 

@@ -37,6 +37,10 @@ export class VersionComponent implements OnInit, OnDestroy {
   private destroyed: boolean = false;
   private log: any = Log.create('VersionComponent');
 
+  get getBlockCount() {
+    return this;
+  }
+
   constructor(
     private clientVersionService: ClientVersionService,
     private _rpc: RpcService
@@ -109,7 +113,8 @@ export class VersionComponent implements OnInit, OnDestroy {
   //   return new Promise( resolve => setTimeout(resolve, ms) );
   // }
 
-  public getBlockCount() {
+
+  public getKek() {
     return this.blocksCount;
   }
 
