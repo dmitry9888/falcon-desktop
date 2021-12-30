@@ -1,7 +1,7 @@
 {
   "clients": {
     "falcond": {
-      "version": "1.0",
+      "version": "1.0.0",
       "platforms": {
         "linux": {
           "arm": {
@@ -70,7 +70,7 @@
             "download": {
               "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-osx.zip",
               "type": "zip",
-              "sha256": "785fbe35a43df692cf110d44c3fca0d532b5b215d503bd3ac2c89508a611ef08",
+              "sha256": "0c7be12f04f27afcf1e10b772572a76189ab571b6c528bdbfeccc323a14135b1",
               "bin": "falcon-1.0-osx/bin/falcond"
             },
             "bin": "falcond",
@@ -92,7 +92,7 @@
             "download": {
               "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-win.zip",
               "type": "zip",
-              "sha256": "f332b89eb0f6c258f2a7997680800194d13c98b42b4f4b57c037f56cac0d2839",
+              "sha256": "12f92e02a5b7d19fa01e32dbbce42e292bf19be0b751d129238db12817394e5f",
               "bin": "falcon-1.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
@@ -112,7 +112,7 @@
             "download": {
               "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-win.zip",
               "type": "zip",
-              "sha256": "f332b89eb0f6c258f2a7997680800194d13c98b42b4f4b57c037f56cac0d2839",
+              "sha256": "12f92e02a5b7d19fa01e32dbbce42e292bf19be0b751d129238db12817394e5f",
               "bin": "falcon-1.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
