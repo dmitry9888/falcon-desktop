@@ -1,9 +1,9 @@
 {
   "name": "falcon-desktop",
-  "version": "2.0.0-alpha-testnet",
+  "version": "1.0.0",
   "branch": "main",
   "license": "GPL-2.0",
-  "description": "Falcon Desktop - decentralized marketplace, private currency, messaging & self-governance",
+  "description": "Falcon Desktop Wallet - decentralized marketplace, private currency, messaging & self-governance",
   "homepage": "https://falconofficial.com/",
   "keywords": [
     "falcon",
@@ -46,7 +46,7 @@
     "travis:test": "ng test --watch=false --code-coverage",
     "start": "yarn run start:electron:fast"
   },
-  "productName": "Falcon Desktop Testnet",
+  "productName": "Falcon Desktop Wallet",
   "build": {
     "electronVersion": "4.0.3",
     "appId": "io.falcon.desktop",
@@ -114,7 +114,7 @@
       "uninstallerIcon": "resources/icon.ico",
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "menuCategory": "Falcon Desktop Testnet",
+      "menuCategory": "Falcon Desktop Wallet",
       "runAfterFinish": true
     },
     "linux": {
@@ -140,11 +140,11 @@
           ]
         }
       ],
-      "executableName": "Falcon Desktop",
+      "executableName": "Falcon Desktop Wallet",
       "desktop": {
         "Comment": "Falcon, P2P Privacy ecosystem",
         "Icon": "falcon-desktop",
-        "Name": "Falcon Desktop Testnet",
+        "Name": "Falcon Desktop Wallet",
         "StartupNotify": "true",
         "Terminal": "false",
         "Type": "Application",
