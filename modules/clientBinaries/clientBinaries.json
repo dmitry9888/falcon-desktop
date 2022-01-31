@@ -6,10 +6,10 @@
         "linux": {
           "arm": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-linux.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "24bec7bdbfe6e84e08932241b2f096ea4afa2687218849c269bc55b0b85fed1c",
-              "bin": "falcon-1.0-linux/bin/falcond"
+              "sha256": "a6f0aea07feb3b9295ba3a19d116717deb71a800a492c6f02772f40ff2c15049",
+              "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
             "commands": {
@@ -26,10 +26,10 @@
           },
           "ia32": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-linux.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "24bec7bdbfe6e84e08932241b2f096ea4afa2687218849c269bc55b0b85fed1c",
-              "bin": "falcon-1.0-linux/bin/falcond"
+              "sha256": "a6f0aea07feb3b9295ba3a19d116717deb71a800a492c6f02772f40ff2c15049",
+              "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
             "commands": {
@@ -46,10 +46,10 @@
           },
           "x64": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-linux.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "24bec7bdbfe6e84e08932241b2f096ea4afa2687218849c269bc55b0b85fed1c",
-              "bin": "falcon-1.0-linux/bin/falcond"
+              "sha256": "a6f0aea07feb3b9295ba3a19d116717deb71a800a492c6f02772f40ff2c15049",
+              "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
             "commands": {
@@ -68,10 +68,10 @@
         "mac": {
           "x64": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-osx.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-osx.zip",
               "type": "zip",
-              "sha256": "0c7be12f04f27afcf1e10b772572a76189ab571b6c528bdbfeccc323a14135b1",
-              "bin": "falcon-1.0-osx/bin/falcond"
+              "sha256": "6bd55af352d988474a926a59b0dd58d45d4a9e6e3a3b4da9b0a782e7d75394be",
+              "bin": "falcon-2.0-osx/bin/falcond"
             },
             "bin": "falcond",
             "commands": {
@@ -90,10 +90,10 @@
         "win": {
           "ia32": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-win.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-win.zip",
               "type": "zip",
-              "sha256": "12f92e02a5b7d19fa01e32dbbce42e292bf19be0b751d129238db12817394e5f",
-              "bin": "falcon-1.0-win/bin/falcond.exe"
+              "sha256": "6484808cc435003a7e879a8e7f81786f3fbe8aa75581007fd116b96f5a834ff5",
+              "bin": "falcon-2.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
             "commands": {
@@ -110,10 +110,10 @@
           },
           "x64": {
             "download": {
-              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v5.0.0.4/falcon-1.0-win.zip",
+              "url": "https://github.com/ProjectFalcon/falcon-core/releases/download/v6.0/falcon-2.0-win.zip",
               "type": "zip",
-              "sha256": "12f92e02a5b7d19fa01e32dbbce42e292bf19be0b751d129238db12817394e5f",
-              "bin": "falcon-1.0-win/bin/falcond.exe"
+              "sha256": "6484808cc435003a7e879a8e7f81786f3fbe8aa75581007fd116b96f5a834ff5",
+              "bin": "falcon-2.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
             "commands": {
