@@ -8,7 +8,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "86045562e242a4d0fa928f0c1b08385ac3e9a435dbcfd86a9e27c67a55f355be",
+              "sha256": "95b943a0f533ddb563db725a6ea7321f672bcbbff5d5ad2f52ff118daf103ffd",
               "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -28,7 +28,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "86045562e242a4d0fa928f0c1b08385ac3e9a435dbcfd86a9e27c67a55f355be",
+              "sha256": "95b943a0f533ddb563db725a6ea7321f672bcbbff5d5ad2f52ff118daf103ffd",
               "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -48,7 +48,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-linux.zip",
               "type": "zip",
-              "sha256": "86045562e242a4d0fa928f0c1b08385ac3e9a435dbcfd86a9e27c67a55f355be",
+              "sha256": "95b943a0f533ddb563db725a6ea7321f672bcbbff5d5ad2f52ff118daf103ffd",
               "bin": "falcon-2.0-linux/bin/falcond"
             },
             "bin": "falcond",
@@ -70,7 +70,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-osx.zip",
               "type": "zip",
-              "sha256": "5803c5bba058028a49424a0c68f9ef64de663f45882f888101da8eb225de7623",
+              "sha256": "1a915aafd759edc2e50c9f0758c8f3394c87d1275a895b05fa8d43ce4c41a21d",
               "bin": "falcon-2.0-osx/bin/falcond"
             },
             "bin": "falcond",
@@ -92,7 +92,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-win.zip",
               "type": "zip",
-              "sha256": "4e9d592b4d8ebb729a7bff6002f181aa1bc51a342460ffdbe35724534b2ad322",
+              "sha256": "9e6e109303fc2fddc8ee1ac2d1a57350128c531151ea9810453ad18b7e8791d3",
               "bin": "falcon-2.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
@@ -112,7 +112,7 @@
             "download": {
               "url": "https://github.com/dmitry9888/falcon/releases/download/v10/falcon-2.0-win.zip",
               "type": "zip",
-              "sha256": "4e9d592b4d8ebb729a7bff6002f181aa1bc51a342460ffdbe35724534b2ad322",
+              "sha256": "9e6e109303fc2fddc8ee1ac2d1a57350128c531151ea9810453ad18b7e8791d3",
               "bin": "falcon-2.0-win/bin/falcond.exe"
             },
             "bin": "falcond.exe",
